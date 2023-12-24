@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		783A6A142B37379B004CF708 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A6A132B37379B004CF708 /* SettingsViewController.swift */; };
 		783A6A162B375491004CF708 /* DevAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A6A152B375491004CF708 /* DevAboutViewController.swift */; };
+		78BD6A0E2B384280007D1C9A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD6A0D2B384280007D1C9A /* TimerViewController.swift */; };
 		78CC05662B2B297500C8D276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC05652B2B297500C8D276 /* AppDelegate.swift */; };
 		78CC05682B2B297500C8D276 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC05672B2B297500C8D276 /* SceneDelegate.swift */; };
 		78CC056A2B2B297500C8D276 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC05692B2B297500C8D276 /* MenuViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		783A6A132B37379B004CF708 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		783A6A152B375491004CF708 /* DevAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevAboutViewController.swift; sourceTree = "<group>"; };
+		78BD6A0D2B384280007D1C9A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		78CC05622B2B297500C8D276 /* CulinaryCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CulinaryCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CC05652B2B297500C8D276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CC05672B2B297500C8D276 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				78CC05692B2B297500C8D276 /* MenuViewController.swift */,
 				783A6A132B37379B004CF708 /* SettingsViewController.swift */,
 				783A6A152B375491004CF708 /* DevAboutViewController.swift */,
+				78BD6A0D2B384280007D1C9A /* TimerViewController.swift */,
 				78CC056B2B2B297500C8D276 /* Main.storyboard */,
 				78CC056E2B2B297700C8D276 /* Assets.xcassets */,
 				78CC05702B2B297700C8D276 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				78CC05662B2B297500C8D276 /* AppDelegate.swift in Sources */,
 				783A6A162B375491004CF708 /* DevAboutViewController.swift in Sources */,
 				78CC05682B2B297500C8D276 /* SceneDelegate.swift in Sources */,
+				78BD6A0E2B384280007D1C9A /* TimerViewController.swift in Sources */,
 				783A6A142B37379B004CF708 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

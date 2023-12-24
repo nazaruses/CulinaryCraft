@@ -16,10 +16,11 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yll-wu-Aps">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.91060979633440753" green="0.91381053863015049" blue="0.92341276551737927" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.82376501355508358" green="0.82376501355508358" blue="0.82376501355508358" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="3mh-v7-9uO" kind="relationship" relationship="viewControllers" id="dxs-Ce-py9"/>
+                        <segue destination="aoU-x7-WXu" kind="relationship" relationship="viewControllers" id="flf-xZ-QzX"/>
                         <segue destination="lz8-y1-iz3" kind="relationship" relationship="viewControllers" id="z6B-wq-cc1"/>
                     </connections>
                 </tabBarController>
@@ -363,7 +364,7 @@
                             <constraint firstItem="mpA-wG-py3" firstAttribute="leading" secondItem="JqB-UU-TrV" secondAttribute="leading" id="geg-w3-Yol"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Рецепты" id="nfy-JO-TfL">
+                    <tabBarItem key="tabBarItem" title="Рецепты" selectedImage="frying.pan.fill" catalog="system" id="nfy-JO-TfL">
                         <imageReference key="image" image="frying.pan" catalog="system" symbolScale="medium"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Culinary Craft" id="gLP-Tm-UJc"/>
@@ -389,6 +390,24 @@
             </objects>
             <point key="canvasLocation" x="-1445" y="-375"/>
         </scene>
+        <!--Таймер-->
+        <scene sceneID="h7E-eh-heS">
+            <objects>
+                <viewController id="aoU-x7-WXu" customClass="TimerViewController" customModule="CulinaryCraft" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WvU-Uj-rFb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IcK-Yy-REF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Таймер" selectedImage="fitness.timer.fill" catalog="system" id="6Ki-xz-Qdn">
+                        <imageReference key="image" image="fitness.timer" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pF2-Sq-AsN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2260" y="633"/>
+        </scene>
         <!--Настройки-->
         <scene sceneID="gsy-Ic-9YY">
             <objects>
@@ -400,7 +419,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcn-jW-nGm">
                                 <rect key="frame" x="133" y="656" width="127" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.13725490870000001" green="0.32156863810000003" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Разработчик"/>
                                 <connections>
@@ -411,7 +430,7 @@
                                 <rect key="frame" x="66" y="156" width="254" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Версия 0.2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6U-gs-yj4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Версия 0.3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6U-gs-yj4">
                                 <rect key="frame" x="155" y="417" width="77" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
@@ -422,8 +441,8 @@
                         <viewLayoutGuide key="safeArea" id="RS6-LL-D1a"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Настройки" id="pO8-Pb-crz">
-                        <imageReference key="image" image="gear" catalog="system" symbolScale="medium"/>
+                    <tabBarItem key="tabBarItem" title="Настройки" selectedImage="gearshape.fill" catalog="system" id="pO8-Pb-crz">
+                        <imageReference key="image" image="gearshape" catalog="system" symbolScale="medium"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mFV-hc-UBb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -438,18 +457,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Fdd-Oa-iG2">
+                                <rect key="frame" x="0.0" y="-15" width="393" height="857"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nazar Dremach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EuL-Mq-ahg">
                                 <rect key="frame" x="107" y="92" width="179" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="26"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IOS Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHA-Iw-lu2">
                                 <rect key="frame" x="140" y="132" width="112" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Developer" translatesAutoresizingMaskIntoConstraints="NO" id="YeC-uQ-tCk">
@@ -459,18 +482,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HO-RJ-v3b">
                                 <rect key="frame" x="107" y="639" width="179" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.13725490870000001" green="0.32156863810000003" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Сайт Разработчика"/>
                                 <connections>
                                     <action selector="OpenSITE:" destination="aqh-Il-oBu" eventType="touchUpInside" id="L2C-7u-441"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Iwd-0S-YjH">
-                                <rect key="frame" x="51" y="594.33333333333337" width="291" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Kdk-xN-8up"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -499,19 +517,26 @@
     </scenes>
     <resources>
         <image name="Developer" width="2068" height="2068"/>
+        <image name="Image" width="968" height="2066"/>
         <image name="Settings" width="1024" height="1024"/>
         <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <image name="fitness.timer" catalog="system" width="128" height="123"/>
+        <image name="fitness.timer.fill" catalog="system" width="128" height="123"/>
         <image name="frying.pan" catalog="system" width="128" height="81"/>
-        <image name="gear" catalog="system" width="128" height="122"/>
-        <image name="space" catalog="system" width="128" height="38"/>
+        <image name="frying.pan.fill" catalog="system" width="128" height="80"/>
+        <image name="gearshape" catalog="system" width="128" height="123"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
