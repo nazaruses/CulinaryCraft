@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7806A5542B3F3ACB008F8408 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7806A5532B3F3ACB008F8408 /* DetailsViewController.swift */; };
 		7827700E2B387DD3005F6409 /* RecipesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827700D2B387DD3005F6409 /* RecipesModel.swift */; };
 		783A6A142B37379B004CF708 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A6A132B37379B004CF708 /* SettingsViewController.swift */; };
 		783A6A162B375491004CF708 /* DevAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A6A152B375491004CF708 /* DevAboutViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7806A5532B3F3ACB008F8408 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		7827700D2B387DD3005F6409 /* RecipesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesModel.swift; sourceTree = "<group>"; };
 		783A6A132B37379B004CF708 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		783A6A152B375491004CF708 /* DevAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevAboutViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				7827700D2B387DD3005F6409 /* RecipesModel.swift */,
 				783A6A152B375491004CF708 /* DevAboutViewController.swift */,
 				78BD6A0D2B384280007D1C9A /* TimerViewController.swift */,
+				7806A5532B3F3ACB008F8408 /* DetailsViewController.swift */,
 				78CC056B2B2B297500C8D276 /* Main.storyboard */,
 				78CC056E2B2B297700C8D276 /* Assets.xcassets */,
 				78CC05702B2B297700C8D276 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				78CC056A2B2B297500C8D276 /* MenuViewController.swift in Sources */,
 				7827700E2B387DD3005F6409 /* RecipesModel.swift in Sources */,
 				78CC05662B2B297500C8D276 /* AppDelegate.swift in Sources */,
+				7806A5542B3F3ACB008F8408 /* DetailsViewController.swift in Sources */,
 				783A6A162B375491004CF708 /* DevAboutViewController.swift in Sources */,
 				78CC05682B2B297500C8D276 /* SceneDelegate.swift in Sources */,
 				78BD6A0E2B384280007D1C9A /* TimerViewController.swift in Sources */,
@@ -314,13 +318,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = nazaruses.com.CulinaryCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -342,13 +347,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = nazaruses.com.CulinaryCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
