@@ -23,6 +23,7 @@ class DetailsViewController: UIViewController {
 //            recipesNames[index].text =
 //            "\(recipe[index].name)"
         }
-//        
+//
 //    }
 //}
+    
