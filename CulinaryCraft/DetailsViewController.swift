@@ -9,21 +9,31 @@ import UIKit
 
 class DetailsViewController: UIViewController {
     
-    @IBOutlet weak var recipesLabel: UILabel!
+    @IBOutlet var recipesLabel: 
+        UILabel!
+    
+    @IBOutlet weak var recipeImg: UIImageView!
+    
+    var recipe: Recipe?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        fillDefaultValues()
+        fillDefaultValues()
         
     }
-//    func fillDefaultValues() {
-//        for index in 0..<recipesNames.count {
-//            
-//            recipesNames[index].text =
-//            "\(recipe[index].name)"
-        }
-//
-//    }
-//}
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let sender = sender as? UILabel else { return }
+        print (sender.tag)
+    }
+    
+    func fillDefaultValues() {
+        recipesLabel.text = recipe?.recipet
+        recipeImg.image = recipe?.image
+        
+    }
+    
+}
+
+
