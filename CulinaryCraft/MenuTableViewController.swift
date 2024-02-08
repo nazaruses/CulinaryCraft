@@ -65,8 +65,8 @@ class MenuTableViewController: UITableViewController {
         label.text = text
         label.font = UIFont(name:"HelveticaNeue-Bold", size: 24.0)
         
-        label.frame.size = CGSize(width: tableView.frame.size.width - 32, height: 70)
-        label.frame.origin = CGPoint(x: 16, y: -35)
+        label.frame.size = CGSize(width: tableView.frame.size.width - 32, height: 65)
+        label.frame.origin = CGPoint(x: 16, y: -30)
         
         header.frame.size = CGSize(width: tableView.frame.size.width, height: 86)
         header.frame.origin = CGPoint(x: 0, y: 0)
